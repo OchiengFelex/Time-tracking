@@ -1,0 +1,127 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+  color: white;
+  background-color: rgb(4, 4, 45);
+}
+body .container {
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 15rem);
+  grid-template-rows: repeat(2, 13rem);
+  row-gap: 10px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  box-sizing: border-box;
+}
+body .container div {
+  border: 10px;
+}
+body .container .item_1 {
+  grid-row: span 2;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+  background-color: bisque;
+}
+body .container .item_1 .sec_2 {
+  border-radius: 10px;
+  background-color: rgb(5, 49, 97);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+}
+body .container .item_1 .sec_2 .elem {
+  padding: 1rem 0 0 1.3rem;
+}
+body .container .item_1 .sec_2 h4,
+body .container .item_1 .sec_2 p {
+  font-family: "Roboto", sans-serif;
+}
+body .container .item_1 .sec_2 p {
+  color: aliceblue;
+}
+body .container .item_1 .sec_1 {
+  padding: 1rem 0 0 1.3rem;
+  z-index: 1000;
+  height: 64%;
+  max-width: 100rem;
+  flex: 1 1 300px;
+}
+body .container .item_1 .sec_1 h4,
+body .container .item_1 .sec_1 h2 {
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+}
+body .container .item_1 .sec_1 h2 {
+  font-size: 2rem;
+}
+body .container .item_1 .sec_1 img {
+  width: 5rem;
+  height: 5rem;
+}
+body .container .item_2 {
+  background-color: rgb(243, 243, 59);
+}
+body .container .item_3 {
+  background-color: rgb(82, 82, 225);
+}
+body .container .item_4 {
+  background-color: rgb(213, 108, 108);
+}
+body .container .item_5 {
+  background-color: greenyellow;
+}
+body .container .item_6 {
+  background-color: rgb(218, 108, 218);
+}
+body .container .item_7 {
+  background-color: rgb(211, 211, 50);
+}
+body .container .item {
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.deep_blue {
+  background-color: rgb(5, 49, 97);
+  border-radius: 10px;
+}
+
+.secondary_light_blue {
+  background-color: rgb(68, 51, 191);
+  border-radius: 10px;
+}
+
+.primary_light_blue {
+  background-color: rgb(16, 218, 204);
+  border-radius: 10px;
+}
+
+.sec_desc {
+  height: 81%;
+  max-width: 100%;
+  flex: 1 1 14rem;
+  padding-left: 1rem;
+}
+.sec_desc h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 200;
+}
+.sec_desc h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.sec_desc h5 {
+  font-family: "Roboto", sans-serif;
+}/*# sourceMappingURL=styles.css.map */
